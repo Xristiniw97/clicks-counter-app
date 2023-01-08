@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Button Click App. This app calculate how many clicks you do when you press save button.">
     <title>Clicks Counter App</title>
-    <link rel="stylesheet" href="index.css">
+
+    <link rel="preload" as="style" href="./index.css">
+    <link rel="stylesheet" href="./index.css">
+
+    <link rel="preload" as="script" href="./index.js">
 </head>
 <body>
     <div class="blockClicks">
@@ -16,6 +23,6 @@
         <p id="save-el">Previous clicks: </p>
     </div>
     
-    <script src="index.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
